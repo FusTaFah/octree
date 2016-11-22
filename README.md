@@ -5,6 +5,6 @@ Simple octree datatype (can be changed to an ntree in octree.h, just change the 
 ###Usage
 
 
-```command line
+```terminal
 g++ -std=c++14 vec3.cpp octree.cpp main.cpp -o main
 ```
