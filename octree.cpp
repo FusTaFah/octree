@@ -102,5 +102,6 @@ bool octree::inside(const vec3 & quarry){
   bool less_than_x = quarry.x < displaced_max.x;
   bool less_than_y = quarry.y < displaced_max.y;
   bool less_than_z = quarry.z < displaced_max.z;
+  
   return greater_than_x && greater_than_y && greater_than_z && less_than_x && less_than_y && less_than_z;
 }
