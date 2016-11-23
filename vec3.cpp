@@ -33,7 +33,7 @@ vec3 vec3::operator+(const vec3 & other){
   float new_x = x + other.x;
   float new_y = y + other.y;
   float new_z = z + other.z;
-  vec3 temp(x, y, z);
+  vec3 temp(new_x, new_y, new_z);
   return temp;
 }
 
@@ -41,6 +41,6 @@ vec3 vec3::operator-(const vec3 & other){
   float new_x = x - other.x;
   float new_y = y - other.y;
   float new_z = z - other.z;
-  vec3 temp(x, y, z);
+  vec3 temp(new_x, new_y, new_z);
   return temp;
 }
