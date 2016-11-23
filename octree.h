@@ -16,5 +16,5 @@ struct octree{
   octree & operator=(octree & other);
   ~octree();
   void print(std::ostream & output);
-
+  bool inside(const vec3 & quarry);
 };
